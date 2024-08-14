@@ -1,0 +1,179 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+}
+
+/* Cabeçalho */
+header {
+    background: #524545;
+    color: #fff;
+    padding: 1rem 0;
+}
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 1rem;
+}
+
+header h1 {
+    font-size: 2rem;
+    
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li {
+    margin-left: 1rem;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Seção de Herói */
+#hero {
+    background: url('../Assets/pizzarias-asa-sul_capa-e1574365302929.jpeg') no-repeat center center/cover;
+    color: #ebe5e5;
+    text-align: center;
+    padding: 4rem 1rem;
+}
+
+#hero h2 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+#hero p {
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+}
+
+.btn-primary {
+    background: #e74c3c;
+    color: #fff;
+    padding: 0.75rem 1.5rem;
+    text-decoration: none;
+    border-radius: 4px;
+    font-weight: bold;
+}
+
+.btn-primary:hover {
+    background: #c0392b;
+}
+
+/* Seção de Menu */
+#menu {
+    padding: 2rem 1rem;
+}
+
+#menu h2 {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.pizza-menu {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.pizza-item {
+    width: 300px;
+    text-align: center;
+    margin: 1rem;
+}
+
+.pizza-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.pizza-item h3 {
+    margin: 0.5rem 0;
+}
+
+.pizza-item .price {
+    font-weight: bold;
+    color: #e74c3c;
+}
+
+/* Seção de Contato */
+#contact {
+    background: #f4f4f4;
+    padding: 2rem 1rem;
+}
+
+#contact h2 {
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+form {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+form label {
+    margin: 0.5rem 0;
+    display: block;
+}
+
+form input, form textarea {
+    width: 100%;
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+form button {
+    background: #e74c3c;
+    color: #fff;
+    border: none;
+    padding: 0.75rem;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+form button:hover {
+    background: #c0392b;
+}
+
+#form-response {
+    text-align: center;
+    font-weight: bold;
+    color: green;
+}
+
+/* Rodapé */
+footer {
+    background: #dd0f0f;
+    color: #fff;
+    padding: 1rem 0;
+    text-align: center;
+}
+
+footer .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 1rem;
+}

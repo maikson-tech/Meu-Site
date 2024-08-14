@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pizzaria do Maikson</title>
+    <link rel="stylesheet" href="./PIZZ.CSS">
+</head>
+<body>
+    <!-- Cabeçalho -->
+    <header>
+        <div class="container">
+            <h1>Pizzaria Deliciosa</h1>
+            <nav>
+                
+                <ul>
+                    <li><a href="#hero">Início</a></li>
+                    <li><a href="#menu">Menu</a></li>
+                    <li><a href="#contact">Contato</a></li>
+                </ul>
+            </nav>
+        
+        </div>
+    </header>
+
+    <!-- Seção de Herói -->
+    <section id="hero">
+        <div class="hero-content">
+            
+            <h2>As melhores pizzas da cidade!</h2>
+            
+            <p>Descubra nossos sabores deliciosos e feitos com ingredientes frescos.</p>
+            
+            <a href="#menu" class="btn-primary">Veja o Menu</a>
+            
+        </div>
+    </section>
+
+    <!-- Seção de Menu -->
+    <section id="menu">
+        <div class="container">
+            <h2>Nosso Menu</h2>
+            <div class="pizza-menu">
+                <div class="pizza-item">
+                    <img src="../Assets/PIZZA1.jpeg" alt="Pizza Margherita">
+                    <h3>Pizza Margherita</h3>
+                    <p>Tomate, mozzarella, manjericão</p>
+                    <p class="price">R$ 30,00</p>
+                </div>
+                <div class="pizza-item">
+                    <img src="../Assets/PIZZA2.jpeg" alt="Pizza Pepperoni">
+                    <h3>Pizza Pepperoni</h3>
+                    <p>Tomate, mozzarella, pepperoni</p>
+                    <p class="price">R$ 35,00</p>
+                </div>
+                <div class="pizza-item">
+                    <img src="../Assets/PIZZA3.jpeg" alt="Pizza Quatro Queijos">
+                    <h3>Pizza Quatro Queijos</h3>
+                    <p>Tomate, mozzarella, queijo azul, parmesão, provolone</p>
+                    <p class="price">R$ 40,00</p>
+                </div>
+                <div class="pizza-item">
+                    <img src="../Assets/PIZZA1.jpeg" alt="Pizza Margherita">
+                    <h3>Pizza Margherita</h3>
+                    <p>Tomate, mozzarella, manjericão</p>
+                    <p class="price">R$ 30,00</p>
+                </div>
+                <div class="pizza-item">
+                    <img src="../Assets/PIZZA2.jpeg" alt="Pizza Pepperoni">
+                    <h3>Pizza Pepperoni</h3>
+                    <p>Tomate, mozzarella, pepperoni</p>
+                    <p class="price">R$ 35,00</p>
+                </div>
+                <div class="pizza-item">
+                    <img src="../Assets/PIZZA3.jpeg" alt="Pizza Quatro Queijos">
+                    <h3>Pizza Quatro Queijos</h3>
+                    <p>Tomate, mozzarella, queijo azul, parmesão, provolone</p>
+                    <p class="price">R$ 40,00</p>
+                </div>
+                <div class="pizza-item">
+                    <img src="../Assets/PIZZA3.jpeg" alt="Pizza Quatro Queijos">
+                    <h3>Pizza Quatro Queijos</h3>
+                    <p>Tomate, mozzarella, queijo azul, parmesão, provolone</p>
+                    <p class="price">R$ 40,00</p>
+                    
+                </div>
+                <div class="pizza-item">
+                    <img src="../Assets/PIZZA3.jpeg" alt="Pizza Quatro Queijos">
+                    <h3>Pizza Quatro Queijos</h3>
+                    <p>Tomate, mozzarella, queijo azul, parmesão, provolone</p>
+                    <p class="price">R$ 40,00</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Seção de Contato -->
+    <section id="contact">
+        <div class="container">
+            <h2>Entre em Contato</h2>
+            <form id="contact-form">
+                <label for="name">Nome:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="message">Mensagem:</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+
+                <button type="submit">Enviar</button>
+            </form>
+            <p id="form-response"></p>
+        </div>
+    </section>
+
+    <!-- Rodapé -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Pizzaria Deliciosa. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+
+    <script src="./PIZZ.JS"></script>
+</body>
+</html>
